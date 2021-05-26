@@ -1,0 +1,155 @@
+body{
+	background-color: #fff;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	color: #333333;
+}
+.fade{
+	opacity: 1;
+}
+#banner{
+	position: relative;
+	background-image: url("../images/banner.jpg");
+	background-size: cover;
+	background-position: bottom center;
+    height: 700px;
+    width: 100% !important;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 200;
+
+}
+.content_banner,.logo{
+	color: #fff;
+	font-size: 20px;
+	font-family:Roboto, 'Open Sans', 'sans-serif';
+    position: relative;
+    top: 150px;
+    margin: 0 auto;
+}
+#header{
+	font-size: 40px;
+}
+.logo{
+	margin-bottom: 20px;
+}
+
+#icons{
+	position: relative;
+	justify-content: center;
+	text-align: center;
+    width: 100%;
+    font-family: Roboto ,serif;
+    font-size: 16px;
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+#icon{
+	background-color: #008ed6;
+	border-radius: 50%;
+	font-size: 70px;
+	line-height: 175px;
+	color: white;
+	width: 175px;
+	height: 175px;
+}
+.features{
+	display: inline-block;
+	width: 350px;
+	margin: 20px;
+}
+.line{
+	border: solid 0.2px #008ed6;
+	text-align: center;
+	width: 25%;
+	margin: auto;
+}
+
+#submit{
+	position: relative;
+	background-image: url("../images/bg.jpg");
+	background-attachment: fixed;
+    background-size: cover;
+	height: 500px;
+	color: #008ed6;
+}
+.submit-content{
+	position: relative;
+	text-align: center;
+	top: 170px;
+}
+.btn-submit{
+	color:white ;
+	background-color:#008ed6;
+	padding: 20px;
+	border: 1px solid white;
+	opacity: .5;
+}
+
+#mess-icon{
+	position: absolute;
+	font-size: 20px;
+	margin-top: -200px !important;
+	margin-left: -40px;
+	background-color: #008ed6;
+	border-radius: 50%;
+	color: white;
+	padding: 22px !important;
+	opacity: .7;
+}
+
+#form{
+	text-align: center;
+	margin-top:120px;
+	margin-bottom: 50px;
+	font-size: 17px;
+}
+.form-group{
+	padding: 20px;
+	width: 25%;
+	margin-top:20px;
+	border: 1px solid #ccc;
+}
+#input-left{
+	
+	width: 53%;
+}
+.form-group:hover, .form-group:active, .form-group:focus{
+	border-color: #008ed6;
+	border-radius: 0px;
+}
+
+#footer{
+	position: relative;
+	border-top: 1px solid #ccc;
+	padding: 25px 0px 0px;
+	text-align: center;
+}
+.fa {
+  padding: 5px;
+  font-size: 25px;
+  text-decoration: none;
+  border-radius: 10%;
+  background: #008ed6;
+  opacity: .7;
+  color: white;
+  margin: 2px;
+}
+.social-icon{
+	display: inline-block;	
+	float: right;
+	margin-top: -40px;
+}
+.fa:hover {
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
